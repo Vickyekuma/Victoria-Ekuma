@@ -1,0 +1,91 @@
+.box{
+    height: 650px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 6 0px;
+    box-shadow: -4px 4px 50px 10px cadetblue;
+    border-radius: 12px;
+    border-style: outset;
+}
+
+.white-box-content{
+    margin-left: 70px;
+    margin-top: 60px;
+    width: 80%;
+}
+
+.white-box-head{
+    color: rgb(124, 228, 231);
+}
+
+
+
+.purple-box{
+    background-color: cadetblue;
+    height: 650px;
+    width: 600px;
+    border-radius: 12px;
+    padding-top: 50px;
+}
+
+.blue-white-box{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    border-radius: 15px;
+    margin-top: 10%;
+    border-style: outset;
+   
+    
+}
+
+.inner-blue-white-box{
+    background-color: wheat;
+    height: 110px;
+    width: 300px;
+    margin-left: 120px;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+
+.inner-blue-white-box-text{
+  
+    margin-left: 15%;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.center{
+    margin-top: 5%;
+}
+.searchbtn{
+    margin-left: 30%;
+    
+}
+
+.form-body{
+    height: 450px;
+    width: 60%;
+    background-color: cadetblue;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.form{
+    margin-left: 100px;
+    width: 70%;
+     height: 300px;
+}
+.Reg{
+    color: blue;
+    font-weight: 600;
+}
+.animate{
+    font-size: small;
+    font-style: oblique;
+    font-weight: 800;
+    color: cornflowerblue;
+    height: 10px;
+}

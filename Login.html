@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Victoria.css">
+    <link rel="stylesheet" href="./bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+</head>
+<body>
+        <div class="container">
+        <div class="box" >
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="white-box-content white-box-head">
+                        <div style="color: cadetblue;"><strong> <h1>Vicky</h1></strong></div>
+                         <br>
+                        <h1 style="color: black;">Log in.
+                        </h1>
+                        <div style="color: black;">Log in with your data that you entered during registration</div>
+                        <br>
+                        Your e-mail
+                        <br>
+                        <input type="text" id="username" class="form-control" placeholder="name@domain.com or username">
+                        <br>
+                        Password
+                        <br>
+                        <input type="password" id="password" class="form-control" placeholder="at least 8 characters">
+                        <input type="checkbox" name="" id="">&nbsp;&nbsp;Keep me login
+                        <br>
+                        <br>
+                        <br>
+                        <a href="./Home.html"><button class="btn btn-secondary form-control" onclick="Auth()">login</button></a>
+                        <br><br>
+                        <div style="margin-left: 20%">Don't have an account?<a href="./register.html" target="_blank">Sign up</a> </div>
+                        <div style="margin-left: 30%"><a href="">Forget password?</a></div>
+                
+                    </div>
+    
+                </div>
+                <div class="col-lg-6">
+                    <div class="purple-box">
+                        <div class="blue-white-box">
+                            <div class="center">
+                                <i class="fa fa-user-circle fa-2x" aria-hidden="true">Victoria</i>
+
+                                <br><br>
+                                
+                                <i class="fa fa-envelope fa-0" aria-hidden="true">&nbsp;&nbsp; ossysmail@gmail.com</i>
+                                <br>
+                                <i class="fa fa-phone fa-0" aria-hidden="true"><a href="+2347060442266">&nbsp;&nbsp; +2347060442266</a></i>
+                                <br>
+                                <i class="fa fa-home fa-0" aria-hidden="true"> &nbsp;&nbsp; 7. Toungo Close, Kubwa, Abuja.</i>
+                                </div>
+                            <div class="searchbtn">
+                                
+                                <button class="btn btn-outline-success my-2 my-2-0" type="submit" style="background-color: grey; color: honeydew;">Show details</button>
+                              
+                            </div>
+                            <div class="inner-blue-white-box">
+                                <div class="inner-blue-white-box-text">
+                                    <br><div class="spinner-border text-primary"></div> 
+                                    Total receipt this month
+                                <br> <a href="">Assign payment</a> 
+                            </div>
+                            </div>
+
+                            
+    
+                    </div>
+                    <div>
+
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+        <h4 id="alert" style="display: none;" class="alert alert-info" ></h4>
+    </div>
+    
+   <script src="./js/storage.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
